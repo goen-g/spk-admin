@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 patchedDependencies:
   mockjs@1.1.0:
     hash: zljuuegabo7mnbroxnwxab3e2u
@@ -187,7 +183,7 @@ devDependencies:
     specifier: 2.0.1
     version: 2.0.1(vite@4.3.9)
   vite-plugin-vue-devtools:
-    specifier: ^0.2.0
+    specifier: 0.2.0
     version: 0.2.0(@types/node@20.3.1)(axios-cache-adapter@2.7.3)(axios@1.4.0)(body-parser@1.20.2)(cli-color@2.0.3)(express@4.18.2)(image-downloader@4.3.0)(jimp@0.16.13)(morgan@1.10.0)(pug@3.0.2)(rollup@2.79.1)(vite@4.3.9)(vue@3.3.4)
   vue-tsc:
     specifier: 1.6.5
@@ -11674,3 +11670,7 @@ packages:
     dependencies:
       tslib: 2.3.0
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
